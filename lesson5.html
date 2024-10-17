@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .outer{
+            display: flex;
+            background: #324949;
+            justify-content: center; /*Center horizontally all the inner content*/
+            padding-top: 20px;
+            padding-bottom: 20px;
+            /*height: 500px;*/
+        }
+
+        .inner{
+            background: #333333;
+            width: 40%;
+            padding: 16px;
+        }
+
+        .inner p{
+           color: azure;
+        }
+
+        #shout{
+            color: #f85c5c;
+            font-size: 1.1em;
+        }
+
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            background: #555454;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        .smaller{
+            width: 23%;
+            height: 120px;
+            background: #333333;
+            color: aliceblue ;
+            font-size: 1.8em;
+            display: flex;
+            justify-content: center;/*horizontal*/
+            align-items: center; /*vertical*/
+        }
+
+    </style>
+</head>
+<body>
+
+
+<div class="outer">
+    <div class="inner">
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span id="shout"> Accusamus ad aliquam consequuntur</span> cum dolore est eum excepturi exercitationem fugiat iusto necessitatibus nihil nisi, nulla optio pariatur provident, quas vel, voluptates?</span><span>Atque, aut deleniti exercitationem fugiat hic in ipsa ipsum modi optio quaerat ratione recusandae repellat reprehenderit tempora unde veritatis, voluptates. Eveniet itaque modi placeat quidem sed! Amet dolores iusto sint.</span><span>Culpa dolorum obcaecati provident ratione veritatis? Consequatur debitis deleniti eligendi esse laborum. Alias aperiam eaque fugiat labore minus nulla perferendis quas ratione soluta sunt. Amet eos magnam optio totam veritatis!</span></p>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="smaller">1</div>
+    <div class="smaller">2</div>
+    <div class="smaller">3</div>
+    <div class="smaller">4</div>
+</div>
+
+
+
+</body>
+</html>

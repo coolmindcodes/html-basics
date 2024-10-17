@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Updock&display=swap"
+          rel="stylesheet">
+
+    <style>
+        /*Remove all default spaces*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        h2 {
+            text-align: center;
+            color: #a82525;
+            font-size: 2.5em;
+            margin-bottom: 12px;
+            font-family: "Updock", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        p {
+            text-align: justify;
+            color: #3f4bf6;
+            font-size: 1.1em;
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .x {
+            border: 1px dashed #716767;
+            /*margin: 15px;*/
+            /*padding: 12px;*/
+            /*margin-top: 18px;*/
+            /*margin-right: 15px;*/
+            /*margin-left: 15px;*/
+            /*margin-bottom: 18px;*/
+            margin: 18px 15px; /*top+bottom, left+right*/
+            padding: 12px 8px;
+        }
+
+        .y{
+            margin: 0 15px;
+            padding: 18px 8px;
+            border-bottom: 1px solid #555454;
+            /*border-left: 1px solid #777;*/
+        }
+
+        .z{
+            color: crimson;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--Colors, Borders, Fonts, Font size, spacings, backgrounds-->
+
+<div class="x">
+    <!-- Inline styling-->
+    <!--    <h2 style="color:#f14747; text-align: center;">First Paragraph</h2>-->
+    <h2>Heading One</h2>
+    <p class="z"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolore eligendi facilis, minima odio praesentium quod vero. Animi architecto, dolore eaque error expedita facilis iste laudantium minus, officia quidem recusandae.</span><span>A accusamus adipisci aliquam architecto at atque consectetur, cupiditate debitis delectus deleniti eaque, earum esse hic illo illum ipsum maxime obcaecati pariatur quasi quod recusandae repellendus, sapiente sint vero vitae.</span><span>Adipisci doloremque molestiae nihil optio quae repudiandae sunt suscipit. Accusamus consequatur cum deserunt nihil pariatur velit! Architecto, autem corporis excepturi laudantium magnam modi numquam placeat quaerat reiciendis saepe tempore veritatis!</span><span>Accusamus aliquid consectetur debitis delectus deserunt doloribus ea enim et ex facere facilis illum ipsa itaque iusto pariatur quisquam, saepe soluta tenetur vel voluptatem! Adipisci dolores earum laborum nam ut.</span>
+    </p>
+</div>
+
+<!--  DRY == Don't Repeat Yourself -->
+<div class="x">
+    <!--    <h2 style="color:#f14747; text-align: center;">Second Paragraph</h2>-->
+    <h2>Heading Two</h2>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolore eligendi facilis, minima odio praesentium quod vero. Animi architecto, dolore eaque error expedita facilis iste laudantium minus, officia quidem recusandae.</span><span>A accusamus adipisci aliquam architecto at atque consectetur, cupiditate debitis delectus deleniti eaque, earum esse hic illo illum ipsum maxime obcaecati pariatur quasi quod recusandae repellendus, sapiente sint vero vitae.</span><span>Adipisci doloremque molestiae nihil optio quae repudiandae sunt suscipit. Accusamus consequatur cum deserunt nihil pariatur velit! Architecto, autem corporis excepturi laudantium magnam modi numquam placeat quaerat reiciendis saepe tempore veritatis!</span><span>Accusamus aliquid consectetur debitis delectus deserunt doloribus ea enim et ex facere facilis illum ipsa itaque iusto pariatur quisquam, saepe soluta tenetur vel voluptatem! Adipisci dolores earum laborum nam ut.</span>
+    </p>
+</div>
+
+
+<div class="y">
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem dicta distinctio eaque earum eius error exercitationem facere hic illum impedit modi mollitia natus placeat, quae soluta tenetur voluptatem voluptatum.</span><span>Ad aspernatur at illo iusto, odio porro saepe sed. Amet aspernatur consequuntur dolorem error eveniet explicabo iusto, maiores neque, officia, officiis quasi quisquam quos reiciendis saepe sint suscipit ut veritatis?</span><span>Accusantium quis rerum sit velit voluptatum. Ad eaque laudantium quae sequi, suscipit totam voluptates? Assumenda atque dolore, facilis magnam natus numquam perferendis perspiciatis porro possimus quam reiciendis sequi voluptates voluptatibus?</span><span>Amet beatae, consectetur eum illo nostrum nulla numquam odit. Esse minus nemo quam quis repellat? Aliquam animi, dolor dolore eligendi, esse itaque necessitatibus numquam perspiciatis provident quaerat quas sed tempore.</span></p>
+</div>
+
+<div class="y">
+    <p class="z"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet beatae, blanditiis dignissimos dolores, ea exercitationem ipsam laborum maxime minima nemo qui quis rem rerum, tempora tempore unde veritatis. Neque, voluptates?</span><span>Accusamus accusantium aperiam at, atque commodi culpa deleniti dolor ducimus earum eius expedita facere facilis fuga, harum hic iure maiores natus necessitatibus nisi officiis omnis perspiciatis quibusdam, ut vitae voluptate.</span><span>A accusantium, architecto atque autem cumque debitis dignissimos dolores eaque est et facere harum, impedit labore modi necessitatibus nihil non nulla, optio pariatur quaerat quisquam rem reprehenderit sequi sint unde?</span><span>Aliquid, cumque ea eaque eligendi eum fugit illum impedit laboriosam necessitatibus nemo quo reprehenderit, voluptate! Aliquam aut corporis cum cumque dolor fugiat ipsum quas quo? Laborum obcaecati tempore veniam voluptate.</span></p>
+</div>
+
+<div class="y">
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet beatae, blanditiis dignissimos dolores, ea exercitationem ipsam laborum maxime minima nemo qui quis rem rerum, tempora tempore unde veritatis. Neque, voluptates?</span><span>Accusamus accusantium aperiam at, atque commodi culpa deleniti dolor ducimus earum eius expedita facere facilis fuga, harum hic iure maiores natus necessitatibus nisi officiis omnis perspiciatis quibusdam, ut vitae voluptate.</span><span>A accusantium, architecto atque autem cumque debitis dignissimos dolores eaque est et facere harum, impedit labore modi necessitatibus nihil non nulla, optio pariatur quaerat quisquam rem reprehenderit sequi sint unde?</span><span>Aliquid, cumque ea eaque eligendi eum fugit illum impedit laboriosam necessitatibus nemo quo reprehenderit, voluptate! Aliquam aut corporis cum cumque dolor fugiat ipsum quas quo? Laborum obcaecati tempore veniam voluptate.</span></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    background: #f3f3f3;
+    -webkit-box-shadow: 6px 8px 12px -2px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 6px 8px 12px -2px rgba(0, 0, 0, 0.43);
+    box-shadow: 6px 8px 12px -2px rgba(0, 0, 0, 0.43);
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end; /*position to the right*/
+    align-items: center; /*vertically align at the center*/
+    list-style: none; /*remove bullets*/
+    height: 60px;
+}
+
+nav li {
+    padding: 0px 24px;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a82525;
+    font-weight: 600;
+    transition: color 400ms, font-size 400ms;
+}
+
+nav a:hover{
+   color: #cd5050;
+   font-size: 1.08em;
+}
+
+footer{
+    border-top: 1px solid #bdbdbd;
+}
+
+footer .top{
+    height: 120px;
+    background: #555454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .bottom{
+    padding: 16px 0;
+    text-align: center;
+}
